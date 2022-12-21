@@ -2344,6 +2344,10 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">template.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">badger-2020</bcf:citekey>
+    <bcf:citekey order="1">dickerson-2020</bcf:citekey>
+    <bcf:citekey order="1">lee-2021</bcf:citekey>
+    <bcf:citekey order="1">wilson-2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

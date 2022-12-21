@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.5.12)  21 DEC 2022 01:04
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.5.12)  21 DEC 2022 04:37
  restricted system commands enabled.
  file:line:error style messages enabled.
 **tkjn.tex
@@ -680,9 +680,9 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 \openout3 = tkjn.bcf
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'tkjn.bbl' not found.
+Package biblatex Info: ... file 'tkjn.bbl' found.
 
-No file tkjn.bbl.
+(./tkjn.bbl)
 Package biblatex Info: Reference section=0 on input line 66.
 Package biblatex Info: Reference segment=0 on input line 66.
 luaotfload | cache : Lookup cache loaded from /Users/tnakamoto/Library/texlive/2
@@ -732,115 +732,164 @@ Package fontspec Info: Font family 'EuclidFraktur.ttf(0)' created for font
 (fontspec)             <->"[EuclidFraktur.ttf]:mode=node;language=dflt;+tlig;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-
-Overfull \hbox (2.16827pt too wide) in paragraph at lines 99--115
-  [] 
- []
-
 <../figs//regions.png, id=1, 768.471pt x 412.4208pt>
 File: ../figs//regions.png Graphic file (type png)
 <use ../figs//regions.png>
-Package luatex.def Info: ../figs//regions.png  used on input line 126.
+Package luatex.def Info: ../figs//regions.png  used on input line 133.
 (luatex.def)             Requested size: 229.5pt x 123.16711pt.
-[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Overfull \hbox (4.56584pt too wide) detected at line 172
- []$[]   [] [][] [][] \OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\O
-T1/cmr/m/n/10 ) [](\OML/cmm/m/it/10 []x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dx []
-\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []ct\OT1/cmr/m/n/10 )$ 
- []
-
-
-Overfull \hbox (21.24445pt too wide) detected at line 181
-[]\OML/cmm/m/it/10 H\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 ^^@ 
-\OML/cmm/m/it/10 c[]t\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 H\
-OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 [] \OM
-S/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 c[]t\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 u[][
-][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\O
-ML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 ) \OMS/c
-msy/m/n/10 ^^@ \OML/cmm/m/it/10 c[]t\OT1/cmr/m/n/10 )[]
- []
-
-[2<../figs//regions.png>]
-Underfull \hbox (badness 2165) in paragraph at lines 214--215
+Underfull \hbox (badness 2165) in paragraph at lines 231--232
 []\TU/TimesNewRoman(0)/m/n/10 Note that the re-flected pulse has the same speed
  []
 
-<../figs//Thing6.png, id=25, 602.25pt x 401.5pt>
+<../figs//Thing6.png, id=13, 602.25pt x 401.5pt>
 File: ../figs//Thing6.png Graphic file (type png)
 <use ../figs//Thing6.png>
-Package luatex.def Info: ../figs//Thing6.png  used on input line 219.
+Package luatex.def Info: ../figs//Thing6.png  used on input line 236.
 (luatex.def)             Requested size: 229.5pt x 153.00043pt.
+[2<../figs//regions.png>]
+Overfull \hbox (26.21272pt too wide) in paragraph at lines 288--289
+[]\TU/TimesNewRoman(0)/m/n/10 Re-flect-ed-Pulse = \TU/lmtt/m/n/10 PulseObject\T
+U/TimesNewRoman(0)/m/n/10 ($\OML/cmm/m/it/10 A[]$\TU/TimesNewRoman(0)/m/n/10 ,\
+TU/lmtt/m/n/10 Pulse\TU/TimesNewRoman(0)/m/n/10 .wavelength,$\OML/cmm/m/it/10 x[]$\TU/TimesNewRoman(0)/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 304--305
+[]\TU/TimesNewRoman(0)/m/n/10 Trans-mit-ted-Pulse = \TU/lmtt/m/n/10 PulseObject\TU/TimesNewRoman(0)/m/n/10 ($\OML/cmm/m/it/10 A[]$\TU/TimesNewRoman(0)/m/n/10 , $\OML/cmm/m/it/10 []$\TU/TimesNewRoman(0)/m/n/10 , $\OML/cmm/m/it/10 x[]$\TU/TimesNewRoman(0)/m/n/10 ,
+ []
+
 [3<../figs//Thing6.png>]
+Underfull \hbox (badness 3138) in paragraph at lines 313--314
+\TU/TimesNewRoman(0)/m/n/10 Four ini-tial cases are com-pletely sim-u-lated and re-
+ []
 
-LaTeX Warning: Empty bibliography on input line 296.
+<../figs//PulseSpacing.png, id=26, 602.25pt x 401.5pt>
+File: ../figs//PulseSpacing.png Graphic file (type png)
+<use ../figs//PulseSpacing.png>
+Package luatex.def Info: ../figs//PulseSpacing.png  used on input line 329.
+(luatex.def)             Requested size: 229.5pt x 153.00043pt.
+<../figs//PulseSpacingReverse.png, id=27, 602.25pt x 401.5pt>
+File: ../figs//PulseSpacingReverse.png Graphic file (type png)
+<use ../figs//PulseSpacingReverse.png>
+Package luatex.def Info: ../figs//PulseSpacingReverse.png  used on input line 3
+37.
+(luatex.def)             Requested size: 229.5pt x 153.00043pt.
+[4<../figs//PulseSpacing.png><../figs//PulseSpacingReverse.png>]
+Underfull \hbox (badness 3547) in paragraph at lines 378--378
+\TU/TimesNewRoman(0)/m/it/10 Jour-nal of Ap-plied En-gi-neer-ing Math-e-mat-ics \TU/TimesNewRoman(0)/m/n/10 7
+ []
 
-[4
 
-] [5
+Underfull \hbox (badness 1152) in paragraph at lines 378--378
+[]\TU/TimesNewRoman(0)/m/n/10 Tevin Dick-er-son and Spencer Tru-man. ``Doppler
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 378--378
+[]\TU/TimesNewRoman(0)/m/n/10 Eric Lee and Joseph Furner. ``Re-ver-ber-a-tions 
+of
+ []
+
+[5
 
 ]
-Overfull \hbox (50.75pt too wide) in paragraph at lines 361--361
+Overfull \hbox (56.0pt too wide) in paragraph at lines 417--417
+[]        \TU/lmtt/m/n/10 return A + A*cos(2*pi/lambda*(x - 0.5*lambda -x1 - c*t
+) ) #centers the pulse within [x1, x2][] 
+ []
+
+
+Overfull \hbox (50.75pt too wide) in paragraph at lines 437--437
 []    \TU/lmtt/m/n/10 ampR = A.amplitude*(c2-c1)/(c2+c1) # Calculate amplitude 
 of the reflected wave (absolute value)[] 
  []
 
-[6] [7]
-Overfull \hbox (45.5pt too wide) in paragraph at lines 477--477
+[6
+
+]
+Overfull \hbox (24.5pt too wide) in paragraph at lines 479--479
+[]    \TU/lmtt/m/n/10 while abs(R2.amplitude) > 1e-3 #Calculate reflections unti
+l amplitude goes below threshold[] 
+ []
+
+[7] [8]
+Overfull \hbox (45.5pt too wide) in paragraph at lines 551--551
 []        \TU/lmtt/m/n/10 u1 = sum([R1[i].(x1,t) for i in 1:length(R1)])+sum([R1
 b[i].(x1,t) for i in 1:length(R1b)])[] 
  []
 
 
-Overfull \hbox (45.5pt too wide) in paragraph at lines 478--478
+Overfull \hbox (45.5pt too wide) in paragraph at lines 552--552
 []        \TU/lmtt/m/n/10 u2 = sum([R2[i].(x2,t) for i in 1:length(R2)])+sum([R2
 b[i].(x2,t) for i in 1:length(R2b)])[] 
  []
 
 
-Overfull \hbox (45.5pt too wide) in paragraph at lines 479--479
+Overfull \hbox (45.5pt too wide) in paragraph at lines 553--553
 []        \TU/lmtt/m/n/10 u3 = sum([R3[i].(x3,t) for i in 1:length(R3)])+sum([R3
 b[i].(x3,t) for i in 1:length(R3b)])[] 
  []
 
-[8] [9] 
+[9]
+Overfull \hbox (66.5pt too wide) in paragraph at lines 602--602
+[]            \TU/lmtt/m/n/10 u1 = sum([R1[i].(x1,t) for i in 1:length(R1)])+sum
+([R1b[i].(x1,t) for i in 1:length(R1b)])[] 
+ []
+
+
+Overfull \hbox (66.5pt too wide) in paragraph at lines 603--603
+[]            \TU/lmtt/m/n/10 u2 = sum([R2[i].(x2,t) for i in 1:length(R2)])+sum
+([R2b[i].(x2,t) for i in 1:length(R2b)])[] 
+ []
+
+
+Overfull \hbox (66.5pt too wide) in paragraph at lines 604--604
+[]            \TU/lmtt/m/n/10 u3 = sum([R3[i].(x3,t) for i in 1:length(R3)])+sum
+([R3b[i].(x3,t) for i in 1:length(R3b)])[] 
+ []
+
+[10]
+Overfull \hbox (50.75pt too wide) in paragraph at lines 631--631
+[]    \TU/lmtt/m/n/10 A = generatePulse(initialPulse) # Generate Incident pulse # Amplitude, wavelength, LHS location[] 
+ []
+
+[11] 
 AED: lastpage setting LastPage
-[10] (./tkjn.aux)
+[12] (./tkjn.aux)
 Package logreq Info: Writing requests to 'tkjn.run.xml'.
 
 \openout1 = tkjn.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 13149 strings out of 478531
+ 13401 strings out of 478531
  125176,1373583 words of node,token memory allocated
- 666 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 37 attribute, 63 glue_spec
-, 37 attribute_list, 2 write nodes
-   avail lists: 2:496,3:847,4:18,5:218,6:105,7:6422,8:56,9:727,10:17,11:483
- 32660 multiletter control sequences out of 65536+600000
- 63 fonts using 14516063 bytes
- 72i,12n,75p,736b,757s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.ot
-f></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.
-otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regul
-ar.otf></System/Library/Fonts/Supplemental/Times New Roman Bold.ttf><./EuclidFra
-ktur.ttf></System/Library/Fonts/Supplemental/Times New Roman.ttf></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
-ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/20
-21/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on tkjn.pdf (10 pages, 225857 bytes).
+ 628 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 25 attribute, 65 glue_spec
+, 25 attribute_list, 2 write nodes
+   avail lists: 1:1,2:713,3:968,4:20,5:205,6:105,7:7022,8:43,9:607,10:17,11:538
+ 32885 multiletter control sequences out of 65536+600000
+ 64 fonts using 14917895 bytes
+ 72i,11n,75p,736b,1167s stack positions out of 5000i,500n,10000p,200000b,80000s
+</System/Library/Fonts/Supplemental/Times New Roman Italic.ttf></usr/local/texli
+ve/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/local/tex
+live/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></System/Lib
+rary/Fonts/Supplemental/Times New Roman Bold.ttf><./EuclidFraktur.ttf></System/L
+ibrary/Fonts/Supplemental/Times New Roman.ttf></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb>
+Output written on tkjn.pdf (12 pages, 264170 bytes).
 
-PDF statistics: 116 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+PDF statistics: 114 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
