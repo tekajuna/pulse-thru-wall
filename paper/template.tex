@@ -1,0 +1,116 @@
+\documentclass[twocolumn, letterpaper]{article}
+\usepackage{lipsum}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage[
+backend=biber,
+style=numeric,
+sorting=nty
+]{biblatex}
+\addbibresource{template.bib}
+\graphicspath{ {./} }
+
+
+
+
+\renewcommand{\maketitle}{
+    \twocolumn[%
+    \raggedleft
+    \setmainfont{EuclidFraktur.ttf}
+    {\Large Journal of Applied Engineering Mathematics} \\ 
+    \vspace{.5 cm}
+    \setmainfont{Times New Roman}
+    \textbf{Volume 7, December 2020}
+    \vspace{1 cm}
+    \center
+    {\Large \textbf{\thetitle} } \\
+    \vspace{.75cm}
+    {\large \theauthor } \\
+    \vspace{.5cm}
+
+    Mechanical Engineering Department \\
+    Brigham Young University \\
+    Provo, Utah 84602 \\
+    {\footnotesize \email}\\
+    \vspace{1 cm}
+    ]
+}
+
+% -------------------------------
+% CHANGEME
+\title{Title goes here}
+\author{Your name goes here}
+\newcommand{\email}{Your email goes here}
+
+% ----------------------------------
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\makeatother
+
+\begin{document}
+\setmainfont{Times New Roman}
+
+\pagestyle{fancy}
+\lhead{\theauthor. \thetitle  %\thepage - \pageref{LastPage} 
+}
+\rhead{ / JAEM 7 (2020) \thepage\ of \pageref{LastPage} }
+\lfoot{\scriptsize \textbf{Journal of Applied Engineering Mathematics} December 2020, Vol. 7}
+\rfoot{\footnotesize Copyright \copyright 2020 by ME505 BYU}
+
+
+\maketitle
+
+% Add your stuff starting from here, aside from the title, name, and email above
+\begin{abstract}
+    % Abstract here
+    A short abstract (100 words maximum) should open the paper or brief. The purposes of the abstract are:
+    \begin{enumerate}
+        \item To give a clear indication of the objective, scope, and results so that readers may determine whether the full text will be of particular interest to them.
+        \item To provide key words and phrases for indexing, abstracting, and retrieval purposes.
+    \end{enumerate}
+    The abstract text should be organized to include the following categories in the order noted:
+    \begin{itemize}
+        \item Background
+        \item Method of Approach
+        \item Results
+        \item Conclusions
+    \end{itemize}
+\end{abstract}
+
+\section*{Nomenclature}
+Put nomenclature here.
+
+\section*{Introduction}
+Put introduction here.
+
+\section*{Body Sections Go Here}
+The text should be organized into logical parts or sections. THe purpose of the paper, or the author's aim, should be stated at the beginning so that the reader will have a clear concep tof the paper's objective. This should be followed by a description of the problem, the means of solution, and any other information necessary to properly qualify the results presented and the conclusions. Finally, the results should be presented in an orderly form, followed by the author's conclusions. 
+
+To make a reference to a particular figure, do this: Figure \ref{fig:sample}, followed by 
+\begin{figure}
+    % \includegraphics{"sample.png"}
+    \caption{Empty figure sample.}
+    \label{fig:sample}
+\end{figure}
+This assumes the image file is found in the same directory as this .tex file.
+
+To make a reference to a document in your bibliography, do this: in \cite{textbook}, ....
+This requires you to create a .bib file, of which an example should come with this document.
+
+\section*{Conclusions}
+Put conclusions here.
+
+\section*{Acknowledgements}
+Put acknowledgements here.
+
+% The bibliography is automatically generated from template.bib. Rename template.bib to match this file's name, if you change it. This will require an installation of Biber, which you should not install by hand; you run Latex on this document, then Biber on the shared name (e.g. "template"), then Latex again.
+% The names you give in the template.bib file become the names you can cite in this document.
+\printbibliography
+
+\section*{Appendix}
+Put appendix here.
+\end{document}
